@@ -1,31 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anchal | My Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
-<section>
-    <h2>My Projects</h2>
 
-    <div class="project">
-        <h3>Personal Portfolio Website</h3>
-        <p>Created using HTML and CSS.</p>
-    </div>
+<body>
 
-    <div class="project">
-        <h3>Student Management System</h3>
-        <p>Created for managing student records.</p>
-    </div>
-</section>
-<section class="about">
-    <h2>About Me</h2>
-    <p>
-        Hello! I am a student learning
-        Web Development. I love creating
-        beautiful websites using HTML and CSS.
-    </p>
-</section>
-<section class="contact">
-    <h2>Contact Me</h2>
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>Anchal.</h2>
 
-    <p>Email: anchal@gmail.com</p>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <p>Thank you for visiting my portfolio!</p>
-</section>
+    <!-- Home Section -->
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <h4>WELCOME TO MY PORTFOLIO</h4>
+
+            <h1>Hello, I'm <span>Anchal</span></h1>
+
+            <h3>BCA Student | Aspiring Web Developer</h3>
+
+            <p>
+                I am passionate about technology,
+                web development and learning new skills.
+                I love creating modern and creative websites.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+        <div class="home-image">
+            <img src="profile.jpg" alt="Anchal Profile Photo">
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! I am Anchal, a BCA student at
+            Uttaranchal University.
+        </p>
+
+        <p>
+            I am currently learning Python, HTML, CSS
+            and Web Development. My goal is to improve
+            my technical skills and build creative projects.
+        </p>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skill-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">C Programming</div>
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    A personal website created using
+                    HTML and CSS.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Student Management System</h3>
+                <p>
+                    A beginner project for managing
+                    student information.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: anchal@gmail.com</p>
+
+        <button onclick="showMessage()">
+            Say Hello
+        </button>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Anchal. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
